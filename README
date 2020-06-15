@@ -1,6 +1,6 @@
 start notebook:
 
-docker run -p 8888:8888 jbonato1/BDP2_review
+docker run -p 8888:8888 -v work:/home/jovyan/work jbonato1/BDP2_review
 
 
 
