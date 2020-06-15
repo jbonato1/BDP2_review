@@ -1,6 +1,8 @@
 start notebook:
 
-docker run -p 8888:8888 -v work:/home/jovyan/work jbonato1/BDP2_review
+docker run -p 8888:8888 -v ~/BDP@_review/work:/home/jovyan/work jbonato1/BDP2_review
 
+start portainer and jupyter:
 
+docker-compose up -d
 
