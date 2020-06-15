@@ -6,6 +6,8 @@ services:
             - '8888:8888'
         volumes:
             - ~/BDP2_review/work:/home/jovyan/work         
+        environment: 
+            - GEN_CERT=yes
     portainer:
         image: 'portainer/portainer'
         ports:
