@@ -1,0 +1,6 @@
+start notebook:
+
+docker run -p 8888:8888 jbonato1/BDP2_review
+
+
+
