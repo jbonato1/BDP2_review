@@ -1,4 +1,6 @@
 version: '3'
+volumes:
+        portainer_data:
 services:
     web:
         image: 'jupyter_note'
